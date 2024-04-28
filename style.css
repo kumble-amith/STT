@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#audioInput {
+    display: none;
+}
+#fileLabel, #submit {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#audioPlayer {
+    margin-top: 20px;
+}
+
+.cont1{
+    width: 100vw;
+    height: 100%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.cont2{
+    margin-bottom: 50px;
+    height: 630px;
+    width: 1350px;
+    box-shadow: 8px 8px 30px #f2aad6;
+    display: flex;
+    flex-direction: row;
+   justify-content:space-evenly;
+}
+
+.sub1{
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid #eb7cc0; */
+    border-radius: 0px;
+    background-color: #f0f0f0;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sub2{
+    height: 500px;
+    width: 700px;
+    /* border: 2px solid #eb7cc0; */
+    border-radius: 0px;
+    background-color: #f0f0f0;
+    margin: 30px;
+}
+
+.sub1,.sub2{
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+.result{
+    font-size: 20px;
+    padding: 5px;
+}
